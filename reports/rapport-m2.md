@@ -11,7 +11,7 @@ Nous avons migré le pipeline DVC du Lab 1 vers deux orchestrateurs : Kubeflow P
 | Mesure | KFP | Airflow |
 |---|---|---|
 | Installation de zéro (min, estimation) | 17 | 5 |
-| Temps jusqu'au premier run réussi (min, hors écriture du code) | 24 | 8 |
+| Temps jusqu'au premier run réussi (min, estimation, hors écriture du code) | 24 | 8 |
 | Durée d'un run complet (min) | 6,6 (premier run, images à télécharger) | 3,1 |
 | Relance avec les mêmes paramètres (min) | 3,8 (3 steps sur 6 servis par le cache) | 3,1 (pas de cache) |
 | Hot-reload : modifier un step et voir le résultat (min, estimation) | 5 | 4 |
